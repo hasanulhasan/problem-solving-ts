@@ -1,4 +1,3 @@
-// type MyType<T> = Array<T>
 
 const reverseStr = <T>(...arr: T[]) => {
   const reverseArr = arr.reverse();
