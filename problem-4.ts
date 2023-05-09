@@ -13,6 +13,7 @@ class Person {
 
 class Student extends Person {
   private grade: number;
+
   constructor(name: string, age: number, grade: number) {
     super(name, age);
     this.grade = grade

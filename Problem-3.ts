@@ -1,4 +1,3 @@
-
 const reverseStr = <T>(...arr: T[]) => {
   const reverseArr = arr.reverse();
   return reverseArr
