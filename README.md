@@ -44,15 +44,13 @@ Difference between ‘unknown’ and ‘any’ Types
 
 2.We cannot assign unknown to anything but itself or any, while we can assign any to anything.
 
-## 5: "as" keyword in TypeScript
+## 6: "as" keyword in TypeScript
 
 In TypeScript, the 'as' syntax is used for Type assertion. It was created because the original syntax was incompatible with JSX. Only as-style assertions can be used with JSX and TypeScript.
 
 Example:
 let something: any = 99
 let changedValue= something as number;
-
-## 6: "as" keyword in TypeScript
 
 The as keyword is used to TypeScript for:
 
